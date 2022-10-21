@@ -3,7 +3,7 @@ package encapsulamiento;
 public class TestEncapsulamiento {
 
     public static void main(String[] args) {
-
+        //Creacion de objeto.
         Persona persona = new Persona();
 
         persona.setNombre("Adrian Velez");
@@ -14,6 +14,8 @@ public class TestEncapsulamiento {
 
         persona.setTelefono("1234567890");
         System.out.println("Telefono: "+ persona.getTelefono());
+
+
     }
 
 
